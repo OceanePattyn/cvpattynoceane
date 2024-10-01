@@ -1,0 +1,38 @@
+{
+    "name": "Pattyn Océane",
+    "title": "Webdesigner",
+    "description": "Je suis Pattyn Océane, née le 26 décembre 2003 (20 ans), étudiante en webdesign à l'IFOSUP de Wavre. Passionnée par la création visuelle et l'expérience utilisateur, je me distingue par mon engagement et ma créativité. Dynamique, organisée et toujours prête à relever des défis, je cherche à apporter des solutions innovantes et esthétiques en design graphique, UI/UX et développement web.",
+    "contact": {
+        "phone": "+32 479 02 54 92",
+        "email": "oceane.pattyn4@gmail.com",
+        "portfolio": "https://pattyn-oceane.com",
+        "address_primary": "290 Chaussée de Wervicq, 7780 Comines, BE",
+        "address_secondary": "22 Rue des génêts, 1390 Grez-Doiceau, BE",
+        "driver_license": "Permis B + voiture"
+    },
+    "skills": {
+        "design_tools": "Maîtrise des outils de design graphique tels que Canva, la suite Adobe (Photoshop, Illustrator, XD, ...) et Figma.",
+        "html_css": "Excellente connaissance du HTML/CSS pour la création de sites web responsive et optimisés.",
+        "ui_ux": "Expertise en conception UI/UX avec une approche axée sur l'ergonomie et l'expérience utilisateur.",
+        "wordpress": "Gestion et création de sites web avec WordPress incluant l'intégration de thèmes et plugins.",
+        "logo_creation": "Créations de logo uniques et adaptés à l'identité visuelle des marques.",
+        "photo_editing": "Compétences en retouche photo : ajout de fonds, suppression d'éléments et ajustement des couleurs."
+    },
+    "languages": {
+        "french": "langue maternelle",
+        "english": "niveau courant",
+        "dutch": "niveau scolaire"
+    },
+    "education": {
+        "high_school": "CESS général en option Latin, Institut Saint-Henri, Comines (2015-2021)",
+        "bachelor": "Bachelier en Langues (Anglais-Français), UCLouvain, Louvain-la-neuve (2021-2023)",
+        "bes": "BES en Webdesign, IFOSUP, Wavre (2023-2025)"
+    },
+    "passions": {
+        "reading": "Lecture : exploration de divers genres littéraires pour enrichir la créativité et la réflexion.",
+        "travel": "Voyage : découverte de nouvelles cultures et perspectives, favorisant l'ouverture d'esprit et l'inspiration."
+    }
+}
+
+
+

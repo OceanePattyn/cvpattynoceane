@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&family=Roboto:wght@400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #FAFAFA; /* Changed to a softer white */
+    color: #4A4A4A;
+    line-height: 1.6;
+    margin: 0;
+    padding: 20px;
+}
+
+#cv-container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    background-color: #e4d4c4;
+    padding: 30px;
+    position: relative; /* Added for positioning the wavy border */
+}
+
+/* Added wavy border after profile section */
+.profile::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    background: repeating-radial-gradient(
+        circle at 50% -1.5px,
+        #e4d4c4 0,
+        #e4d4c4 3px,
+        #FFFFFF 3px,
+        #FFFFFF 6px
+    );
+}
+
+.profile-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 30px;
+}
+
+.personal-info {
+    flex: 1;
+}
+
+h1, h2, h3 {
+    font-family: 'Playfair Display', serif;
+    color: #6B4F4F;
+    margin-bottom: 10px;
+}
+
+h1 {
+    font-size: 36px;
+    margin-top: 0;
+}
+
+h2 {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h3 {
+    font-size: 20px;
+    border-bottom: 2px solid #6B4F4F;
+    padding-bottom: 5px;
+    margin-top: 30px;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+.content {
+    display: flex;
+    padding: 30px;
+    background-color: #FFFFFF; /* Changed to white */
+}
+
+.left-column {
+    flex: 1;
+    padding-right: 30px;
+}
+
+.right-column {
+    flex: 2;
+}
+
+.contact-info, .languages, .passions, .competences, .education {
+    background-color: #FFFFFF;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    text-align : center;
+}
+
+.contact-info p, .languages li, .passions li {
+    margin-bottom: 10px;
+    text-align:left;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.competences li, .education li {
+    margin-bottom: 15px;
+    position: relative;
+    padding-left: 25px;
+    text-align:left;
+}
+
+.competences li:before, .education li:before {
+    content: '◆';
+    position: absolute;
+    left: 0;
+    color: #6B4F4F;
+}
+
+.competences li strong, .education li strong {
+    display: block;
+    font-weight: 700;
+}
+
+@media (max-width: 768px) {
+    .profile, .content {
+        flex-direction: column;
+    }
+    
+    .profile-image {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    
+    .left-column, .right-column {
+        padding-right: 0;
+    }
+}
+
+
+
